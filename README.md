@@ -23,4 +23,4 @@ First, clone the repository to your local machine and run the tool:
 ```bash
 git clone https://github.com/aannjjiill/ENUMENU.git
 cd ENUMENU
-python3 enumerator.py
+python3 enumenu.py
