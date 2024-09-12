@@ -1,3 +1,4 @@
+import os
 import subprocess
 
 def run_command(command):
@@ -11,8 +12,18 @@ def run_command(command):
         print(stdout.decode('utf-8'))
 
 def main():
-    # Step 1: Ask for the domain to run waybackurls
-    domain = input("Enter the domain (e.g., example.com or http://example.com): ")
+    # Step 1: Ask for the domain and create a directory for it
+    domain = input("Enter the domain (e.g., example.com or http://example.com): ").strip()
+    
+    # Extract domain name without protocol or path
+    domain_name = domain.split('//')[-1].split('/')[0]
+    
+    # Create directory for the domain
+    if not os.path.exists(domain_name):
+        os.makedirs(domain_name)
+    
+    # Change working directory to the domain-specific directory
+    os.chdir(domain_name)
     
     # Run waybackurls and store in waybackurls.txt
     print("Running waybackurls...")
@@ -20,7 +31,7 @@ def main():
     run_command(wayback_command)
     
     # Step 2: Ask for hakrawler depth level and run katana and hakrawler
-    depth = input("Enter hakrawler depth level (e.g., 3): ")
+    depth = input("Enter hakrawler depth level (e.g., 3): ").strip()
     print(f"Running katana and hakrawler with depth level {depth}...")
     katana_hakrawler_command = f'cat waybackurls.txt | katana | hakrawler -d {depth} | anew katana_urls.txt'
     run_command(katana_hakrawler_command)
@@ -38,7 +49,7 @@ def main():
         print(path.strip())
     
     # Step 4: Ask if the user wants to find subdomains
-    find_subs = input("\nDo you want to extract subdomains? (y/n): ").lower()
+    find_subs = input("\nDo you want to extract subdomains? (y/n): ").strip().lower()
     if find_subs == 'y':
         print("Extracting subdomains and storing them in allsubs.txt...")
         extract_subs_command = 'cat katana_urls.txt waybackurls.txt | unfurl format %d | anew allsubs.txt'
