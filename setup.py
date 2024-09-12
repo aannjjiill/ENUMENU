@@ -7,7 +7,7 @@ setup(
     description="A tool for enumerating URLs, paths, and subdomains using waybackurls, katana, hakrawler, unfurl, and anew.",
     packages=find_packages(),
     install_requires=[
-        # Add any Python package dependencies here if needed
+        # Add any Python package dependencies here (if needed) 
     ],
     entry_points={
         'console_scripts': [
