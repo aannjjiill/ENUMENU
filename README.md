@@ -50,4 +50,4 @@ This tool utilizes the following open-source utilities:
 - unfurl
 - anew
   
-Thanks to the <a href=https://github.com/projectdiscovery>ProjectDiscovery</a> and <a href=https://github.com/tomnomnom>tomnomnom</a> for providing these amazing tools!
+Thanks to the <a href=https://github.com/projectdiscovery>ProjectDiscovery</a> and <a href=https://github.com/tomnomnom>tomnomnom</a> for creating these amazing tools!
