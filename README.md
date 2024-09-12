@@ -10,7 +10,14 @@
 - Supports different depth levels for `hakrawler`.
 - Results are stored in `waybackurls.txt`, `katana_urls.txt`, `all_paths.txt`, and `allsubs.txt`.
 
-## Installation
+## Installation and Usage
+
+Install ENUMENU
+Clone the repository and install the tool:
+
+git clone https://github.com/aannjjiill/ENUMENU.git
+cd ENUMENU
+python3 enumerator.py
 
 ### Prerequisites
 
