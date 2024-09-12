@@ -1,0 +1,6 @@
+In this case, since we only use `subprocess` from the standard library, no additional Python dependencies are required.
+
+However, you can create the file just in case:
+
+```txt
+# No specific Python dependencies required for now.
