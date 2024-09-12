@@ -12,11 +12,11 @@ def run_command(command):
 
 def main():
     # Step 1: Ask for the domain to run waybackurls
-    domain = input("Enter the domain (e.g., example.com): ")
+    domain = input("Enter the domain (e.g., example.com or http://example.com): ")
     
     # Run waybackurls and store in waybackurls.txt
     print("Running waybackurls...")
-    wayback_command = f'echo "http://{domain}" | waybackurls | anew waybackurls.txt'
+    wayback_command = f'echo "{domain}" | waybackurls | anew waybackurls.txt'
     run_command(wayback_command)
     
     # Step 2: Ask for hakrawler depth level and run katana and hakrawler
