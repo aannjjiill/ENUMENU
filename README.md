@@ -15,6 +15,7 @@
 Install ENUMENU
 Clone the repository and install the tool:
 
+```bash
 git clone https://github.com/aannjjiill/ENUMENU.git
 cd ENUMENU
 python3 enumerator.py
