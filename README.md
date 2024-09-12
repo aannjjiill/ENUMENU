@@ -24,3 +24,30 @@ First, clone the repository to your local machine and run the tool:
 git clone https://github.com/aannjjiill/ENUMENU.git
 cd ENUMENU
 python3 enumenu.py
+
+```
+## Prerequisites
+Before using ENUMENU, ensure you have the following tools installed on your system:
+- waybackurls
+- katana
+- hakrawler
+- unfurl
+- anew
+
+You can install them using go or your system's package manager. For example, to install waybackurls and hakrawler, run the following commands:
+```bash
+go install github.com/tomnomnom/waybackurls@latest
+go install github.com/hakluke/hakrawler@latest
+go install github.com/tomnomnom/unfurl@latest
+go install github.com/tomnomnom/anew@latest
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+````
+##Credits
+This tool utilizes the following open-source utilities:
+- waybackurls
+- katana
+- hakrawler
+- unfurl
+- anew
+  
+Thanks to the <a href=https://github.com/projectdiscovery>ProjectDiscovery</a> and <a href=https://github.com/tomnomnom>tomnomnom</a> for providing these amazing tools!
