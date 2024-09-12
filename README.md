@@ -42,7 +42,7 @@ go install github.com/tomnomnom/unfurl@latest
 go install github.com/tomnomnom/anew@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 ````
-##Credits
+## Credits
 This tool utilizes the following open-source utilities:
 - waybackurls
 - katana
@@ -50,4 +50,4 @@ This tool utilizes the following open-source utilities:
 - unfurl
 - anew
   
-Thanks to the <a href=https://github.com/projectdiscovery>ProjectDiscovery</a> and <a href=https://github.com/tomnomnom>tomnomnom</a> for creating these amazing tools!
+# Thanks to <a href=https://github.com/projectdiscovery>ProjectDiscovery</a>, <a href=https://github.com/tomnomnom>tomnomnom</a> and <a href=https://github.com/hakluke/>hakluke</a> for creating these amazing tools!
