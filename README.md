@@ -1,6 +1,6 @@
 # ENUMENU
 
-**ENUMENU** is a simple tool for enumerating historical URLs, paths, and subdomains using several popular command-line utilities such as `waybackurls`, `katana`, `hakrawler`, `unfurl`, and `anew`. This tool automates the process of collecting URL paths and subdomains for a given domain, helping you with quick and efficient enumeration.
+**ENUMENU** is a simple script for enumerating historical URLs, paths, and subdomains using several popular command-line utilities such as `waybackurls`, `katana`, `hakrawler`, `unfurl`, and `anew`. This tool automates the process of collecting URL paths and subdomains for a given domain, helping you with quick and efficient enumeration.
 
 ## Features
 
