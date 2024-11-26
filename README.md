@@ -14,18 +14,6 @@
   - `all_paths.txt`: Extracted URL paths.
   - `allsubs.txt`: Extracted subdomains (optional).
 
-## Installation and Usage
-
-### Clone the Repository
-
-First, clone the repository to your local machine and run the tool:
-
-```bash
-git clone https://github.com/aannjjiill/ENUMENU.git
-cd ENUMENU
-python3 enumenu.py
-
-```
 ## Prerequisites
 Before using ENUMENU, ensure you have the following tools installed on your system:
 - waybackurls
@@ -41,7 +29,20 @@ go install github.com/hakluke/hakrawler@latest
 go install github.com/tomnomnom/unfurl@latest
 go install github.com/tomnomnom/anew@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
-````
+
+```
+## Installation and Usage
+
+### Clone the Repository
+
+First, clone the repository to your local machine and run the tool:
+
+```bash
+git clone https://github.com/aannjjiill/ENUMENU.git
+cd ENUMENU
+python3 enumenu.py
+
+```
 ## Credits
 This tool utilizes the following open-source utilities:
 - waybackurls
